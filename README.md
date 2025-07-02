@@ -100,4 +100,4 @@ Durante o desenvolvimento, foram aplicadas técnicas avançadas de engenharia de
 
 ---
 
-Este projeto é um experimento prático de integração entre desenvolvimento web e Inteligência Artificial, com foco em aprendizado, inovação e aumento de produtividade. Sinta-se à vontade para contribuir, sugerir melhorias ou adaptar para seus próprios projetos.
+

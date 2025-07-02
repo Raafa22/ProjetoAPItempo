@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Previsão do Tempo</title>
+  <link rel="stylesheet" href="style/weather.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Previsão do Tempo</h1>
+    <form id="weather-form" aria-label="Formulário de busca de clima">
+      <label for="city-input">Digite o nome da cidade:</label>
+      <input type="text" id="city-input" name="city" placeholder="Ex: São Paulo" required aria-required="true" autocomplete="off" />
+      <button type="submit">Buscar</button>
+    </form>
+    <div id="weather-result" class="liquid-glass">Bem vindo! Sua previsão do tempo aparecerá aqui!</div>
+  </main>
+  <script src="scripts/app2.js"></script>
+  <script src="scripts/weather-ui.js"></script>
+  <video autoplay muted loop style="position:fixed;top:0;left:0;width:100vw;height:100vh;object-fit:cover;z-index:-1;">
+  <source src="video/sky.mp4" type="video/mp4">
+  </video>
+
+  <div style="position:relative;z-index:1;color:#fff;text-align:center;padding-top:20%;">
+  </div>
+
+  
+</body>
+</html>
